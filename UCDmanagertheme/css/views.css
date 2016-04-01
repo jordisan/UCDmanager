@@ -1,0 +1,214 @@
+.notfrontdesign #main-content .pane-views-panes {
+	border: solid 1px #666;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+.groupcontent #main-content .pane-views-panes .pane-title,
+.groupcontent #main-content .ui-tabs .ui-tabs-nav {
+	background-color: #554;
+	color: #FFF;
+	font-size: 1.0em;
+	padding: 0.1em 0.2em 0 0.2em;
+}
+.notfrontdesign #main-content .pane-views-panes .pane-title {
+	padding: 0.3em 0.2em;
+}
+.notfrontdesign #main-content .pane-views-panes .pane-content {
+	margin: 0.5em;
+}
+
+.pane-views-panes .item-list ul li ,
+.pane-views-panes .item-list ul ol {
+  margin: 0.7em auto;
+}
+
+.panel-panel .view .views-field-body,
+.panel-flexible .view-project-related-og- .views-field-body {
+	font-size: 85%;
+	padding-left: 1.5em;
+}
+.panel-panel .view .views-field p {
+	padding: 0.1em 0;
+}
+
+/* Projects (my ucdmanager) */
+body.page-my .projects-view ul {
+	margin-left: 0;
+	border-radius: 5px;
+}
+
+body.page-my .projects-view ul li {
+	list-style-type: none;
+	border-radius: 5px;
+	border: solid 1px black;
+	margin: 0.1em auto 1.0em auto;
+}
+body.page-my .projects-view ul li .views-field-title {
+	background-color: #000;
+	padding: 3px;
+	display: block;
+}
+body.page-my .projects-view ul li .views-field-title a {
+	color: #FFF;
+	text-decoration: none;
+}
+body.page-my .projects-view ul li > div {
+	padding: 0.5em;
+}
+
+
+
+/* Techniques by project */
+
+.techniques-by-project ul {
+	margin-left: 0;
+}
+.field-name-field-technique-app .field-items,
+.field-name-field-technique-app-single .field-items {
+	background-color: transparent !important;
+}
+.field-name-field-technique-app .field-item > a,
+.field-name-field-technique-app-single .field-item > a,
+body.page-node .techniques-by-project ul li {
+	list-style-type: none;
+	border-radius: 5px;
+	border: solid 1px black;
+	margin: 0.1em auto 1.0em auto;
+}
+.field-name-field-technique-app .field-item > a,
+.field-name-field-technique-app-single .field-item > a,
+body.page-node .techniques-by-project ul li .views-field-title {
+	background-color: #800;
+	padding: 3px;
+	display: block;
+}
+.field-name-field-technique-app a,
+.field-name-field-technique-app-single a,
+.techniques-by-project ul li .views-field-title a {
+	color: #FFF;
+	text-decoration: none;
+}
+.techniques-by-project ul li > div {
+	padding: 0.5em;
+}
+
+/* Full page views */
+
+body.page-views .view-content .item-list {
+	padding-top: 1.0em;
+	padding-bottom: 3.0em;
+}
+
+body.page-views li.views-row {
+  margin-bottom: 3.0em;
+}
+
+.view-content .item-list > h3 {
+	margin-top: 2.0em;
+	color: #666;
+	font-size: x-small;
+	clear: left;
+}
+body.page-views .item-list li > h4 {
+	font-size: small;
+	margin-bottom: 0.3em;
+}
+
+
+/* Pager */
+ul.pager,
+.view-footer {
+  clear: both;
+  margin: 2.0em 0 1.0em 0;
+  padding: 0.5em 0 0 0;
+}
+ul.pager {
+  border-top: solid 1px #888;
+  text-align: center;
+}
+.item-list ul.pager li {
+  margin: 0;
+}
+ul.pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: .5em;
+}
+ul.pager li.pager-current {
+  font-weight: 700;
+}
+.block ul.pager li {
+  margin: 0;
+}
+
+.view-header {
+	font-size: 90%;
+	text-align: right;
+}
+.view-header .export {
+}
+
+/* Theme the various states of pager links. */
+ul.pager li a:link    {}
+ul.pager li a:visited {}
+ul.pager li a:hover   {}
+
+/* Note: .pager-current is for the current page. */
+ul.pager li.pager-item     {}
+ul.pager li.first          {}
+ul.pager li.last           {}
+ul.pager li.pager-current  {}
+ul.pager li.pager-first    {}
+ul.pager li.pager-previous {}
+ul.pager li.pager-next     {}
+ul.pager li.pager-last     {}
+
+/* inline (span) images */
+span.views-field .field-content img {
+	float: left;
+}
+.views-field-field-icon img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: solid 2px #880000;
+}
+
+/* edit link */
+.views-field-edit-node {
+	font-size: 90%;
+	margin-left: 0.5em;
+}
+
+/* HELP */
+.view-id-help .views-field-field-title {
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 5px;
+	background: url('images/help.png') no-repeat top left;
+	min-height: 24px;
+	margin-top: 1.0em;
+}
+.view-id-help .views-field-body,
+.view-id-help .views-field-view-node {
+	font-size: 90%;
+	color: #333;
+	padding-left: 10px;
+}
+.section-help .views-row {
+	padding-left: 1.0em;
+}
+.section-help .views-row.subnumber- {
+	font-weight: bold;
+	padding-top: 1.0em;
+	padding-bottom: 0.2em;
+	padding-left: 0;
+}
+.view-id-help .views-field-field-demo {
+	display: none;
+}

@@ -1,0 +1,307 @@
+/* Page */
+
+/* HOME */
+#front-header {
+	text-align: center;
+	margin-bottom: 2.0em;
+}
+.frontdesign .whatis p {
+	font-size: 90%;
+}
+.techniques p {
+	font-size: 85%;
+	color: #633;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	line-height: 1.3em;
+}
+
+.frontdesign .start ul {
+	margin-left: 1.5em;
+}
+.frontdesign .start li {
+	margin-bottom: 1.0em;
+}
+
+.rounded-corner .wrap-corner .r-edge {
+	padding: 5px 15px;
+}
+
+/* Header */
+#page > header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+body.section-demo #page > header {
+	padding-top: 40px;
+}
+
+.notfrontdesign #logo,
+.page-my #logo {
+  float: left;
+  margin: -20px 10px 0 0;
+}
+#page > header > hgroup {
+  float: left;
+  margin: 0 10px;
+}
+#site-name {}
+#site-name a    {}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+#site-slogan {
+}
+
+div.messages {
+	margin: 1.0em 0;
+}
+
+/* Page title */
+h1#page-title {
+	/* display: inline-block; */
+}
+body.notgroupcontent h1#page-title {
+	padding-bottom: 0.5em;
+}
+
+.nodetype {
+	font-size: 85%;
+}
+.nodetype,
+.search-info-type {
+	font-style: italic;
+}
+h1#page-title .nodetype,
+body.page-node-edit h1#page-title em {
+	font-size: x-small;
+	margin-left: 1.0em;
+	font-weight: normal;
+}
+body.page-node-edit h1#page-title .nodetype {
+	display: none;
+}
+.notgroupcontent header .nodetype {
+	display: none;
+}
+
+/* Regions */
+.region-leaderboard {}
+.region-header {
+	text-align: right;
+}
+.region-header > .block {
+	display: inline-block;
+}
+.region-secondary-content {}
+.region-highlighted {}
+.region-content-aside {}
+.region-tertiary-content {
+	display: inline-block;
+	float: right;
+}
+.region-footer {
+	margin-top: 4.0em;
+	margin-bottom: 2.0em;
+	text-align: center;
+}
+.region-footer .block-content {
+}
+.region-footer .block-content > div {
+	padding-top: 15px !important;
+	display: table-cell !important;
+	vertical-align: top !important;
+}
+.region-footer .block-content .fb_reset {
+	display: none !important;
+}
+
+/* Sidebars */
+.sidebar {}
+.region-sidebar-first {}
+.region-sidebar-second {}
+.sidebar > .block {
+	padding: 0 0.5em 0 1.0em;
+}
+
+
+/* Footer - the main page footer only */
+#page > footer {}
+
+
+/* Share */
+.block.block-share {
+	margin-top: 2.0em;
+}
+.block.block-share .block-title {
+	display: inline-block;
+	padding: 0.1em 1.0em;
+	float: left;
+	font-size: small;
+	background-color: #000;
+	color: #fff;
+	transform: rotate(340deg);
+	-moz-transform: rotate(340deg);
+	-webkit-transform: rotate(340deg);
+	position: relative;
+	left: -10px;
+}
+.block.block-share .block-content {
+	border: solid 1px #333;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	background-color: #e5e5e5;
+}
+.block.block-share .block-content > div {
+	display: inline-block;
+}
+
+
+/* Feed icons */
+#feed-icons {}
+#feed-icons .feed-icon {}
+#feed-icons .feed-icon img {}
+#feed-icons a.feed-icon {}
+
+/* Search results list. */
+.search-results {}
+.search-results .search-result {}
+.search-results .title {}
+.search-results .search-snippet-info {}
+.search-results p {}
+.search-results .search-snippet {}
+.search-results .search-info {}
+
+span.search-info-type {}
+span.search-info-user {}
+span.search-info-date {}
+span.search-info-comment {}
+span.search-info-upload  {}
+
+/* Aggregator */
+.feed-item {}
+.feed-item header {}
+.feed-item-title {}
+.feed-item-meta {}
+.feed-item .content {}
+.feed-item footer {}
+.feed-source {}
+.feed-description {}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Prevent overflowing content */
+header[role=banner],
+.content-inner,
+.nav,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+#main-content {
+	clear: both;
+	margin-top: 0.5em;
+}
+#main-content > header {
+	font-size: 90%;
+	margin: 0;
+	padding: 0.4em 0.5em 4px 0.5em;
+	
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-top: solid 2px #000;
+	border-left: solid 2px #000;
+	border-right: solid 2px #000;
+}
+.groupcontent #main-content > header {
+	background-color: #666;
+	color: #FEFEFF;
+}
+.page-type-project #main-content > header,
+.page-node-add-project #main-content > header {
+	background-color: #000;
+}
+body[class*='tech-app'] #main-content > header,
+body[class*='page-node-add-tech-app'] #main-content > header,
+body.page-select-technique #main-content > header {
+	background-color: #800;
+}
+body.page-type-help-page #main-content > header,
+body.page-help #main-content > header  {
+	background-color: #BEF;
+}
+
+#main-content .panel-pane {
+}
+.frontdesign .pane-title {
+	font-size: 1.5em;
+	margin-bottom: 1.0em;
+}
+.notfrontdesign #main-content .panel-panel .inside,
+.notfrontdesign #main-content .panel-pane article {
+	margin: 0 0.5em 0.5em 0.5em;
+}
+.groupcontent #tasks li.active a ,
+.groupcontent #main-content .region-content ,
+.groupcontent .view-display-id-page ,
+.groupcontent .ui-tabs .ui-widget-header .ui-state-active {
+	background-color: #EFEFFF;
+}
+.groupcontent #tasks li.active a ,
+.groupcontent .panel-display ,
+.groupcontent .view-display-id-page ,
+form.node-form {
+	margin: 0;
+}
+form.node-form {
+	padding: 0 1.0em 1.0em 1.0em;
+}
+body.notfrontdesign #main-content .region-content {
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-left: solid 2px black;
+	border-right: solid 2px black;
+	border-bottom: solid 2px black;
+	padding: 0.5em 1.0em 1.0em 1.0em;
+}
+body.page-my .panel-display {
+	border: none;
+}
+
+.page-type-project #main-content .panel-col-middle,
+.page-node-add-project #main-content .panel-col-middle {
+	display: none;
+}
+
+.panel-flexible .panel-separator {
+	margin-bottom: 3.0em;
+}
+
+.panel-col-bottom {
+	padding-top: 2.0em;
+}

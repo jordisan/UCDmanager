@@ -1,0 +1,364 @@
+/**
+ * Adaptivetheme takes a pretty heavy handed approach to form styling,
+ * this is so you can have decent looking forms without having to do a
+ * lot of work. The CSS is included in full, including all positioning,
+ * so you can change anything you want.
+ */
+form {
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+.form-item label:first-child {
+  font-weight: bold;
+}
+body.page-node-add label h2 {
+  display: inline-block;
+}
+input {
+  margin: 0;
+  max-width: 100%;
+}
+
+input.text,
+input.title,
+textarea,
+select {
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+/* Focus styles for accessibility and usabiltiy. */
+.form-text:focus,
+.form-checkbox:focus,
+.form-radio:focus,
+.form-select:focus {
+  border: 1px solid #fc0;
+  background: #ffffdf;
+}
+textarea:focus {
+  border: 1px solid #fc0;
+  background: #fff;
+}
+
+/* Inputs and textarea */
+input.text,
+input.title {
+  padding: .5em;
+}
+input.form-text,
+textarea {
+  border: 1px solid #ccc;
+  height: auto;
+  padding: 2px;
+}
+textarea,
+input {
+  font: 1em normal Arial, Helvetica, sans-serif;
+}
+
+#main-content #edit-actions {
+	clear: both;
+	margin-top: 3.0em;
+	width: 100%;
+}
+#main-content #edit-actions input[type=submit] {
+	font-size: 1.2em;
+	padding: 10px;
+}
+#edit-actions input#edit-submit {
+	font-weight: bold;
+	margin-right: 1.5em;
+	padding-left: 20px;
+	min-width: 10.0em;
+}
+#edit-actions input#edit-delete,
+form#node-delete-confirm #edit-actions input[type=submit] {
+	color: #700;
+}
+
+
+div.resizable-textarea textarea {
+  margin-top: 0;
+}
+
+/* Misc */
+.form-item {
+	margin: 0;
+	padding-top: 0.5em
+}
+.form-checkboxes .form-item,
+.form-radios .form-item {
+	padding: 0;
+}
+.form-action {
+}
+.exposed-filters .form-item {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.form-item textarea.error {
+  padding: 2px;
+}
+.form-item .description,
+fieldset .description,
+.text-format-wrapper .description,
+.fieldset-layout-settings dd,
+.help-text,
+.fieldset-description {
+  font-size: x-small;
+  color: #778;
+}
+.form-item .description,
+fieldset .description,
+.text-format-wrapper .description,
+.fieldset-layout-settings dd,
+.help-text {
+  padding-left: 3.0em;
+}
+
+section.help-text {
+	border: solid 1px #080;
+	border-radius: 3px;
+	background-color: #dfd;
+	margin: 3.0em 0.5em;
+	padding: 0 !important;
+}
+section.help-text .block-title {
+	background-color: #080;
+	color: #fff;
+	padding: 0.2em;
+}
+section.help-text .block-content {
+	padding: 0.5em;
+}
+
+/* Required, mark */
+span.form-required,
+span.marker {}
+
+
+/* Fieldsets */
+fieldset {
+  background: transparent;
+  border: 1px solid #dadada;
+  padding: 10px;
+  margin-top: 1.0em;
+}
+fieldset fieldset:last-child {
+  margin-bottom: 0;
+}
+.form-type-radio .description,
+.form-type-checkbox .description {
+  margin-left: 0;
+}
+*:first-child+html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+  padding: 0 10px 10px;
+}
+*:first-child+html fieldset > .description,
+*:first-child+html fieldset .fieldset-wrapper .description {
+  padding-top: 10px;
+}
+fieldset legend {
+  display: block;
+  font-weight: bold;
+  padding: 0 10px 0 0;
+}
+*:first-child+html fieldset legend,
+*:first-child+html fieldset.collapsed legend {
+  display: inline;
+}
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 5px;
+}
+/* Form descriptions */
+.description {}
+
+/* Search */
+#search-block-form {}
+#search-block-form > div {}
+#search-block-form .container-inline{}
+#edit-search-block-form-1-wrapper {}
+#search-block-form label {}
+#search-block-form input {}
+#search-block-form .form-submit {}
+#search-block-form .form-text {}
+
+/* Advanced search form */
+fieldset#edit-advanced fieldset {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+fieldset#edit-advanced fieldset .fieldset-legend {
+  background: none;
+  padding-left: 1em;
+}
+.advanced-search-submit {
+  clear: both;
+}
+.search-advanced .criterion {
+  float: none;
+  margin: 0 5px;
+}
+#edit-keywords-fieldset .form-item:first-child {
+  margin-top: 5px;
+}
+#search-form {
+  margin: 10px 0;
+}
+#search-form > div {}
+#search-form .container-inline {}
+#search-form label {}
+#search-form input {}
+#search-form .form-item {}
+#search-form .form-submit {}
+
+/* User login */
+body.page-user-login #block-system-main {
+	width: 50%;
+	display: inline-block;
+}
+#user-login-form ul {
+  margin: 0;
+  padding: 0;
+}
+#user-login-form li.openid-link,
+#user-login-form li.user-link {
+  text-align: center;
+}
+#user-login ul {
+  margin: 0 0 5px;
+}
+#user-login ul li {
+  margin: 0;
+}
+#user-login-form .item-list li {
+  list-style: none;
+  margin: 0.5em auto;
+}
+#user-login-form li.openid-link,
+#user-login li.openid-link {
+  background: none;
+}
+
+.sidebar .or {
+	text-align: center;
+	color: #999;
+}
+#user-login-form input:not([type]),
+#user-login-form input[type="text"],
+#user-login-form input[type="password"],
+#user-login-form input[type="submit"] {
+	width: 95%;
+}
+.sidebar a.userregister {
+	display: block;
+}
+#user-login-form .reqnewpass {
+	font-size: x-small;
+	text-decoration: none;
+}
+
+body.page-user-register #edit-timezone,
+body.page-user-register #edit-field-notifications-content {
+	display: none;
+}
+body.page-user-register .group-optional {
+	background-color: #eee;
+}
+/* honeypot field */
+body.page-user-register #edit-field-url {
+	position:absolute !important;
+	left:-10000px !important;
+	top:auto !important;
+	width:1px !important;
+	height:1px !important;
+	overflow:hidden !important;
+}
+
+/* Connectors */
+input.connector-button {
+	padding: 5px 5px 5px 30px;
+	background-position: 5px 50%;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+.sidebar input.connector-button {
+	width: 100%;
+}
+input.oauthconnector-twitter {
+	background-image: url('images/twitter_icon.png') ;
+}
+
+body.page-user-login .login-connector {
+	padding-bottom: 10px;
+	margin-top: 13.0em;;
+	float: right;
+	text-align: center;
+	width: 50%;
+}
+body.page-user-login .login-connector input.connector-button {
+	padding: 10px 10px 10px 30px;
+	border-radius: 0;
+}
+
+
+
+/* hide lable class - mostly deprecated but could be present in an upgraded theme */
+.hide-label label {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  background: none;
+}
+
+/* Admin filters, could be redundant, need to test. */
+#user-admin-filter ul li,
+#article-admin-filter ul li {
+  list-style: none;
+}
+#article-admin-filter ul {
+  padding: .5em 0;
+}
+#edit-operation-wrapper select {
+  margin: .5em;
+}
+
+/* Tips overrides */
+.field-type-text-long fieldset {
+  padding: 10px 0;
+}
+.field-type-text-long fieldset .form-item {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+fieldset .filter-help {
+  padding: 0 15px 5px;
+}
+.filter-guidelines {
+  font-size: .923em;
+  margin: 0;
+  padding: 5px 18px 10px;
+}
+.tips {
+  font-size: 0.857em;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+/* Special case modules */
+#devel-switch-user-form {
+  margin-bottom: 0;
+}
+
+
+/* Hide technique applied fields when creating a new one
+   to avoid users putting all technique contents in them */
+body.page-node-add.tech-app #edit-field-title,
+body.page-node-add.tech-app #edit-body,
+body.page-node-add.tech-app #edit-field-attachments,
+body.page-node-add.tech-app #edit-field-references {
+	display: none;
+}  

@@ -1,0 +1,61 @@
+<?php
+
+// http://www.php.net/manual/en/function.empty.php#103756
+function is_blank($value) {
+    return empty($value) && !is_numeric($value);
+}
+
+// is $type a technique-applied type?
+function ucdmanager_isAppTechnique($type) {
+	return strpos($type, 'tech_app') === 0;
+}
+// is $type an evaluation technique-applied type?
+function ucdmanager_isAppTechniqueEval($type) {
+	return strpos($type, 'tech_app_eval') === 0;
+}
+
+// is a CCK field (not a property)?
+function ucdmanager_isField($fieldname) {
+	return $fieldname == 'group_audience' || strpos($fieldname, 'field_') === 0;
+}
+
+require(drupal_get_path('module', 'ucdmanager') . '/includes/relations.inc');
+require(drupal_get_path('module', 'ucdmanager') . '/includes/forms.inc');
+require(drupal_get_path('module', 'ucdmanager') . '/includes/roles.inc');
+require(drupal_get_path('module', 'ucdmanager') . '/includes/links.inc');
+
+// http://drupal.org/node/803562
+function ucdmanager_wysiwyg_editor_settings_alter(&$settings, $context) {
+  if ($context['profile']->editor == 'ckeditor') {
+    $settings['entities'] = FALSE;
+    $settings['basicEntities'] = FALSE;
+    $settings['disableReadonlyStyling'] = TRUE;
+  }
+}
+
+/**
+* Store and retrieve variables from session
+*
+* @param $key
+*     Key to be set or got
+* @param $value
+*     Value to set for $key
+*
+* @return
+*     If only $key is given, sought-after value for $key
+*/
+function ucdmanager_session($key, $value = null) {
+  if (isset($value) && isset($_SESSION)) {
+	if ( isset($_SESSION) && isset($_SESSION[$key]) ) {
+		unset($_SESSION[$key]);
+	}
+    $_SESSION[$key] = $value;
+  }
+ 
+  if (isset($_SESSION[$key])) {
+    return $_SESSION[$key];
+  }
+}
+
+
+?>

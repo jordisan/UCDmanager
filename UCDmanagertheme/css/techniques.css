@@ -1,0 +1,38 @@
+.techniques-by-project .views-row,
+body.tech-app #main-content header {
+	padding-right: 100px;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+body.tech-app #main-content header {
+	background-size: 70px 70px;
+	min-height: 40px;
+}
+.techniques-by-project .views-row {
+	min-height: 95px;
+}
+
+.techniques-by-project .tech-app-analysis-userroles,
+.page-type-tech-app-analysis-userroles #main-content header  {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-userroles.png');
+}
+.techniques-by-project .tech-app-analysis-absusecases,
+.page-type-tech-app-analysis-absusecases #main-content header  {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-absusecases.png');
+}
+.techniques-by-project .tech-app-analysis-personas,
+.page-type-tech-app-analysis-personas #main-content header {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-personas.png');
+}
+.techniques-by-project .tech-app-eval-heuristic,
+.page-type-tech-app-eval-heuristic #main-content header  {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-heuristic.png');
+}
+.techniques-by-project .tech-app-eval-thinkingaloud,
+.page-type-tech-app-eval-thinkingaloud #main-content header  {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-thinkingaloud.png');
+}
+.techniques-by-project .tech-app-eval-accessib,
+.page-type-tech-app-eval-accessib #main-content header  {
+	background-image: url('/sites/default/files/styles/thumbnail/public/icon-accessib.png');
+}

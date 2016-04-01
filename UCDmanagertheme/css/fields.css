@@ -1,0 +1,196 @@
+#main-content div.form-wrapper,
+#main-content .article-content > section.field {
+	width: 60%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* Fields */
+
+.field {
+	padding-bottom: 0.2em;
+}
+
+body.groupcontent .field-items {
+	border-radius: 2px;
+/*	margin-left: 1.0em; */
+	padding: 2px;
+	background-color: #F9F9FF;
+}
+
+/* Field labels are h2 in Adaptivetheme */
+.field .field-label {
+  /* color: #666; */
+  font-size: 1em;
+  font-weight: 700;
+  line-height: inherit;
+  margin: 0.1em 0;
+}
+.field-lable-above .field-label {}
+.field-lable-inline .field-label {
+  display: inline;
+}
+
+/* Imagefields */
+.field-type-image {}
+.field-type-image img {}
+
+/* Use "datetime" when creating new CCK  fields. */
+.field-type-datetime {}
+
+.container-inline-date {
+	clear: none !important;
+}
+.date-padding {
+	padding: 0 !important;
+}
+
+/* Filefield field. */
+.field-type-filefield {}
+
+/* Node reference field. */
+.field-type-nodereference {}
+
+/* User reference field. */
+.field-type-userreference {}
+
+/* Number fields. */
+.field-type-number-decimal {}
+.field-type-number-float   {}
+.field-type-number-integer {}
+
+/* Text fields. */
+.field-type-text {}
+
+.field-type-text-long,
+.field-type-text-with-summary {
+}
+
+/* Term reference fields. */
+.field-type-taxonomy-term-reference .field-label {
+  font-size: 1em;
+}
+.field-type-taxonomy-term-reference ul {
+  margin: 0;
+  padding: 0;
+}
+.field-type-taxonomy-term-reference ul li {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+/* Imagefield skinr settings */
+.ai-l .field-type-image {
+  margin: 4px 20px 10px 0;
+}
+.ai-r .field-type-image {
+  margin: 4px 0 10px 20px;
+}
+.ai-b,
+.ai-b .block-inner,
+.ai-b .block-content {}
+.ai-b .block-content p,
+.ai-b .block-content div.field-type-image {}
+
+/* multiple fields */
+
+.field-add-more-submit {
+	float: right;
+	font-size: small;
+	background-color: transparent;
+	border: none;
+	text-decoration: underline;
+}
+
+
+/* Rich text */
+.filter-wrapper {
+	display: none;
+}
+.superadmin .filter-wrapper {
+	display: block;
+}
+.ckeditor_links,
+.tabledrag-toggle-weight-wrapper {
+	display: block;
+	text-align: right;
+	font-size: x-small;
+	background-color: transparent;
+	border: none;
+	text-decoration: underline;
+}
+a.ckeditor_links,
+.tabledrag-toggle-weight-wrapper a {
+	color: #000;
+}
+.tabledrag-toggle-weight-wrapper {
+	display: none;
+}
+.cke_contents {
+}
+
+/* Field groups */
+div.group-relationships {
+	clear: right;
+	float:right;
+	margin: auto 0 1.0em 3.0em;
+	width: 35%;
+}
+#main-content div.group-relationships div.form-wrapper, 
+#main-content div.group-relationships section.field {
+	width: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* UI WIDGETS */
+.ui-widget {
+	font-size: inherit;
+}
+
+/* Chosen */
+.chzn-container,
+.chzn-drop {
+	min-width: 50% !important;
+}
+.chzn-container-multi .chzn-choices .search-choice {
+	background-image: none;
+	background-color: #FFF;
+}
+.chzn-container-single .chzn-single {
+	float: left;
+}
+/* jquery tabs */
+.ui-tabs {
+	background-color: transparent;
+}
+.ui-tabs .ui-widget-content,
+.ui-widget-content,
+.ui-tabs .ui-widget-header {
+	padding: 0;
+	background-color: transparent;
+	background-image: none;
+}
+.ui-tabs .ui-widget-header {
+	background-image: none;
+	background-color: transparent;
+}
+.ui-tabs .ui-widget-header .ui-state-active {
+	background-color: transparent;
+	background-image: none;
+	font-weight: bold;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	padding-bottom: 2px;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0.2em 1em;
+}
+.ui-tabs .ui-widget-content .pane-views-panes {
+	border-style: none !important;
+}
+.ui-tabs .ui-tabs-panel {
+}

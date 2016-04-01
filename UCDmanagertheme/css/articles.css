@@ -1,0 +1,75 @@
+/* Articles (nodes) */
+.article {
+  margin-bottom: 0.5em;
+}
+
+.article > header {}
+
+/* Title */
+.article-title {}
+.article-title a:link,
+.article-title a:visited,
+.article-title a:active {}
+
+.article-title a:hover,
+.article-title a:focus {}
+
+/* User Picture */
+.article .user-picture {}
+.article .user-picture img {
+	float: right;
+	max-width: 100px;
+	padding-left: 3px;
+}
+
+/* Submitted */
+.submitted {
+	color: #999;
+	font-size: x-small;
+	float: right;
+	padding: 0 0 0.5em 0;
+	text-align: right;
+	min-width: 30%;
+}
+.submitted a {
+	color: #99E;
+}
+.article .submitted  a {}
+.article .submitted  a:hover {}
+.article .submitted  p.author-datetime {
+	margin: 0.1em 0;
+	padding: 0;
+}
+.article .submitted  time {}
+
+/* Links */
+.article nav {}
+.article ul.links {}
+.article ul.links li {}
+.article ul.links li a {}
+.article ul.links li.node_read_more a {}
+.article ul.links li.comment_add a {}
+.article ul.links li.comment_comments a {}
+.article ul.links li.comment_new_comments a {}
+.article ul.links li.blog_usernames_blog a {}
+.article ul.links li.print_html a {}
+.article ul.links li.print_email a {}
+.article ul.links li.print_pdf a {}
+
+/* UL link first and last classes */
+.article ul.links li.first {}
+.article ul.links li.last  {}
+
+/* Workflow states */
+.article-add    {}
+.article-edit   {}
+.article-delete {}
+.article-preview  {}
+.article-sticky   {}
+.article-promoted {}
+
+/* Status */
+.article-unpublished {}
+
+/* Theme the teaser */
+.article-teaser {}

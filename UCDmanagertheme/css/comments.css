@@ -1,0 +1,112 @@
+/* Comments */
+
+.comment-wrapper {
+	padding: 2.0em 1.0em;
+}
+/*
+.comment-wrapper {
+	border-top: solid 2px #333;
+}
+*/
+
+/* Comment wrapper wraps all comments and the comment form. */
+#comments {
+	margin-top: 2.0em;
+}
+#comments h2.title {
+  margin-bottom: 0.5em;
+}
+
+/* Wrapper class for each individual comment. */
+.comment {
+  margin-bottom: 1.0em;
+}
+
+/* Indentation */
+.comment .indented {
+  margin-left: 60px;
+}
+
+/* Comment Title */
+.comment-title {}
+.comment-title a:link,
+.comment-title a:visited,
+.comment-title a:active {}
+
+.comment-title a:hover,
+.comment-title a:focus {}
+
+/* Comment "new" notification */
+.comment-title .new {
+  color: #ff8000;
+}
+
+/* User Picture */
+.comment .user-picture {}
+.comment .user-picture img {}
+
+/* Submitted */
+.comment > footer {}
+.comment > footer em {}
+.comment > footer a {}
+.comment > footer a:hover {}
+.comment > footer .username {}
+.comment > footer time {}
+
+/* Links */
+.comment ul.links {
+  display: block;
+  text-align: right;
+  padding: 0;
+  margin: 0.5em 0;
+}
+.comment ul.links li {
+  padding: 0 0 0 10px;
+}
+.comment ul.links li a {}
+
+/* Core comment link classes. */
+ul.links li.comment_reply a {}
+ul.links li.comment_edit a {}
+ul.links li.comment_delete a {}
+
+/* UL link first and last classes. */
+.comment ul.links li.first {}
+.comment ul.links li.last  {}
+
+/* Author */
+.comment-by-anonymous   {}
+.comment-by-article-author {}
+.comment-by-viewer      {}
+
+/* New */
+.comment-new {}
+
+/* Zebra */
+.comment-odd  {}
+.comment-even {}
+
+/* Status */
+.comment-unpublished {}
+
+/* Themes the "Unpublished" text. */
+.comment-unpublished .unpublished {}
+
+/* Sytle comments by article type. */
+.book-comments    {}
+.blog-comments    {}
+.forum-comments   {}
+.page-comments    {}
+.poll-comments    {}
+.article-comments {}
+
+/* Hide new-comment form when node is being edited */
+body.page-node-edit .comment-title.comment-form,
+body.page-node-edit form.comment-form  {
+	display: none;
+}
+/* Hide comments when node-delete confirmation */
+body.page-node-delete .comment-wrapper {
+	display: none;
+}
+
