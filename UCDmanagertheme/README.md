@@ -1,5 +1,5 @@
-UCDmanager
-==========
+UCDmanager theme
+----------------
 
 Drupal 7 custom theme for UCDmanager (http://ucdmanager.net/)
 

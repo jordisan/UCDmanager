@@ -1,5 +1,5 @@
-UCDmanager
-==========
+UCDmanager module
+-----------------
 
 Drupal 7 custom module for UCDmanager (http://ucdmanager.net/)
 
