@@ -1,5 +1,5 @@
 # UX manager (former UCDmanager)
-Custom code for Drupal site http://uxmanager.net/
+Custom code (Drupal theme and module) for Drupal site http://uxmanager.net/
 
 ![UX manager](https://uxmanager.net/sites/all/themes/UCDmanagertheme/UXmanager.png)
 
